@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end 
   
   post '/checkout' do 
-    @item = params[:item]
+    @items = params[:item]
     erb :item
   end   
   
