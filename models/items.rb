@@ -1,10 +1,10 @@
 class Item 
-  attr_accessor :name 
+  attr_accessor :item
   
   ITEMS = []
   
   def initialize(params)
-    @items = params[:name]
+    @items = params[:item]
     ITEMS << self 
   end   
   
